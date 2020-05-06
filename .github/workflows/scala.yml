@@ -35,5 +35,5 @@ jobs:
             ${{ runner.os }}-sbt-cache
       - name: Build
         run: |
-          sbt build
+          sbt compile
 
